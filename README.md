@@ -31,6 +31,8 @@ For my deep dive into the digital advertising strategies, I harnessed the power 
 - **MySQL:** The chosen database management system, ideal for handling the job posting data.
 - **Visual Studio Code:** My go-to for database management and executing SQL queries.
 - **Git & GitHub:** Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
+- **Numpy:** Essential for numerical and scientific computing. It's especially important in data analysis,data science and machine Learning.
+- **Pandas:** Essential python library used for data manipulation, analysis, and cleaning.
 # The Cleaning
 ```python
 import pandas as pd
