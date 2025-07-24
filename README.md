@@ -1,4 +1,5 @@
 # Introduction
+![Google Ads](assets/Google-Ads-flyte-new-media.jpeg)
 📊 Dive into the world of digital marketing campaign. This project explores the performance of various ad campaigns, providing insights into 💰 ad spend, 🔥 key metrics like clicks and conversions, and 📈 how different factors impact overall campaign success.
 ***
 🔍 SQL queries? Check them out [here](/queries/):
