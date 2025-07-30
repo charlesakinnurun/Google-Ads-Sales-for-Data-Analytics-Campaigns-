@@ -38,6 +38,10 @@ For my deep dive into the digital advertising strategies, I harnessed the power 
 ```sql
 CREATE SCHEMA `googleads`;
 ```
+# Table Creation
+```sql
+SELECT * from sales;
+```
 # The Cleaning
 ```python
 import pandas as pd
