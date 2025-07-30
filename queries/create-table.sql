@@ -1,1 +1,15 @@
-SELECT * from sales;
+CREATE TABLE sales(
+  id VARCHAR(255),
+  campaign_name VARCHAR(255),
+  clicks FLOAT,
+  impressions FLOAT,
+  cost FLOAT,
+  leads FLOAT,
+  conversions FLOAT,
+  conversion_rate FLOAT,
+  sale_amount FLOAT,
+  ad_date DATE,
+  location VARCHAR(255),
+  device VARCHAR(255),
+  kewyword VARCHAR(255),
+);
