@@ -11,5 +11,5 @@ CREATE TABLE sales(
   ad_date DATE,
   location VARCHAR(255),
   device VARCHAR(255),
-  kewyword VARCHAR(255),
+  keyword VARCHAR(255),
 );
