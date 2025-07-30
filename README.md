@@ -34,6 +34,10 @@ For my deep dive into the digital advertising strategies, I harnessed the power 
 - **Git & GitHub:** Essential for version control and sharing my SQL scripts and analysis, ensuring collaboration and project tracking.
 - **Numpy:** Essential for numerical and scientific computing. It's especially important in data analysis,data science and machine Learning.
 - **Pandas:** Essential python library used for data manipulation, analysis, and cleaning.
+# Database Creation
+```sql
+CREATE SCHEMA `googleads`;
+```
 # The Cleaning
 ```python
 import pandas as pd
