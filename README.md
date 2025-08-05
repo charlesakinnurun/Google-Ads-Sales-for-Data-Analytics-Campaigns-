@@ -5,7 +5,7 @@
 🔍 SQL queries? Check them out [here](/queries/):
 # Background
 Driven by a quest to optimize digital advertising strategies, this project was born from a desire to pinpoint top-performing campaigns, identify high-impact metrics, and streamline efforts to maximize return on investment from advertising spend. This analysis leverages comprehensive campaign data to uncover actionable insights.
-## Questions
+# Questions
 1. What is the average number of clicks for all advertisements?
 2. Which campaign_name has the highest total sale_amount?
 3. What is the id with the highest conversion_rate?
@@ -136,12 +136,12 @@ print("Data cleaned and saved to dataset/data_cleaned.csv")
 ```
 # The Analysis
 Each query for this project aimed at investigating specific aspects of the data analyst job market. Here’s how I approached each question:
-### 1.What is the average number of clicks for all advertisements?
+#### 1.What is the average number of clicks for all advertisements?
 ```sql
 SELECT AVG(clicks) AS average_clicks
 FROM ads;
 ```
-### 2.Which campaign_name has the highest total sale_amount?
+#### 2.Which campaign_name has the highest total sale_amount?
 ```sql
 SELECT campaign_name, SUM(sale_amount) AS total_sales
 FROM sales
@@ -149,7 +149,7 @@ GROUP BY campaign_name
 ORDER BY total_sales DESC
 LIMIT 1;
 ```
-### 3.What is the id with the highest conversion_rate?
+#### 3.What is the id with the highest conversion_rate?
 ```sql
 SELECT id,conversion_rate
 FROM sales
@@ -165,3 +165,4 @@ Throughout this adventure, I've turbocharged my SQL toolkit with some serious fi
 - **💡 Analytical Wizardry:** Leveled up my real-world puzzle-solving skills, turning questions into actionable, insightful SQL queries.
 # Conclusions
 This project, by analyzing the advertising campaign data, has provided valuable insights into optimizing digital marketing strategies. The findings from this analysis serve as a guide to prioritizing advertising spend and focusing campaign efforts on channels, keywords, and locations that yield the highest returns. Marketers can better position their campaigns in a competitive digital landscape by focusing on high-performing ads, devices, and keywords that drive conversions and sales. This exploration highlights the importance of continuous data analysis and adaptation to emerging trends in the field of digital advertising to ensure maximum ROI.
+
